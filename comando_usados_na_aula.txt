@@ -1,0 +1,4 @@
+git clone - para clonar um repositório do github
+git add - adciona as mudanças feitas do arquivo 
+git commit -m "mensagem" - comenta as mudanças feitas no arquivo
+git push - envia as mudanças 
