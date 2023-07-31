@@ -5,11 +5,11 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 35vh;
 }
 
 .cabecalho {
@@ -59,7 +59,7 @@ p {
     text-decoration: none;
 } */
 
-.access {
+.acesso {
     display: flex;
     justify-content: space-between;
     padding-left: 60px;
@@ -68,8 +68,8 @@ p {
 .texts {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    max-width: 530px;
+    gap: 50px;
+    max-width: 520px;
 }
 
 .text-title {
@@ -103,4 +103,6 @@ p {
 
 .access-img {
     max-width: 60%;
+    display: flex;
+    flex-direction: row;
 }
