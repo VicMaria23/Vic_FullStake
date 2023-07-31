@@ -5,11 +5,12 @@
 }
 
 body {
-    min-height: 60vh;
+    min-height: 100vh;
+    max-height: 300vh;
 }
 
 .container {
-    min-height: 35vh;
+    min-height: 40vh;
 }
 
 .cabecalho {
@@ -106,3 +107,35 @@ p {
     display: flex;
     flex-direction: row;
 }
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+}
+.key1 {
+    display: flex;
+    position: relative;
+    width: 140%;
+    top: 20px;
+    left: 90px;
+}
+.key2{
+    position: relative;
+    width: 80%;
+    left: 20px;
+}
+.key3 {
+    position: relative;
+    width: 80%;
+    left: 540px;
+    bottom: 550px;
+}
+.key4{
+    position: relative;
+    left: 415px;
+    bottom: 560px;
+}
+
